@@ -1,0 +1,171 @@
+
+[     UTC     ] Logs for mohamedrashadrouine-python-bipythonds2projectnetflix-l3lovg.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[18:14:19] 🖥 Provisioning machine...
+[18:14:19] 🎛 Preparing system...
+[18:14:19] ⛓ Spinning up manager process...
+[18:14:21] 🚀 Starting up repository: 'python', branch: 'main', main module: 'BI (python)/DS 2 project/Netflix.py'
+[18:14:21] 🐙 Cloning repository...
+[18:14:21] 🐙 Cloning into '/app/python'...
+
+[18:14:21] 🐙 Cloned repository!
+[18:14:21] 🐙 Pulling code changes from Github...
+[18:14:22] 📦 Processing dependencies...
+Check if streamlit is installed
+
+──────────────────────────────── Installing Streamlit ──────────────────────────────────
+
+Collecting streamlit
+  Downloading streamlit-1.28.1-py2.py3-none-any.whl (8.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.4/8.4 MB 107.4 MB/s eta 0:00:00[2023-11-11 18:14:22.970115] 
+Collecting python-dateutil<3,>=2.7.3
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 KB 211.6 MB/s eta 0:00:00[2023-11-11 18:14:23.104961] 
+Collecting pandas<3,>=1.3.0
+  Downloading pandas-2.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 157.5 MB/s eta 0:00:00[2023-11-11 18:14:23.527120] 
+Collecting requests<3,>=2.27
+  Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 KB 194.4 MB/s eta 0:00:00[2023-11-11 18:14:23.629185] 
+Collecting pydeck<1,>=0.8.0b4
+  Downloading pydeck-0.8.1b0-py2.py3-none-any.whl (4.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 157.1 MB/s eta 0:00:00[2023-11-11 18:14:23.710073] 
+Collecting numpy<2,>=1.19.3
+  Downloading numpy-1.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 245.0 MB/s eta 0:00:00[2023-11-11 18:14:24.299765] 
+Collecting altair<6,>=4.0
+  Downloading altair-5.1.2-py3-none-any.whl (516 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 516.2/516.2 KB 260.4 MB/s eta 0:00:00[2023-11-11 18:14:24.393394] 
+Collecting rich<14,>=10.14.0
+  Downloading rich-13.6.0-py3-none-any.whl (239 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.8/239.8 KB 254.5 MB/s eta 0:00:00[2023-11-11 18:14:24.525509] 
+Collecting click<9,>=7.0
+  Downloading click-8.1.7-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 KB 225.4 MB/s eta 0:00:00[2023-11-11 18:14:24.598322] 
+Collecting toml<2,>=0.10.1
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting importlib-metadata<7,>=1.4
+  Downloading importlib_metadata-6.8.0-py3-none-any.whl (22 kB)
+Collecting typing-extensions<5,>=4.3.0
+  Downloading typing_extensions-4.8.0-py3-none-any.whl (31 kB)
+Collecting packaging<24,>=16.8
+  Downloading packaging-23.2-py3-none-any.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.0/53.0 KB 190.9 MB/s eta 0:00:00[2023-11-11 18:14:24.884443] 
+Collecting pyarrow>=6.0
+  Downloading pyarrow-14.0.1-cp39-cp39-manylinux_2_28_x86_64.whl (38.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.0/38.0 MB 208.3 MB/s eta 0:00:00[2023-11-11 18:14:25.240251] 
+Collecting pillow<11,>=7.1.0
+  Downloading Pillow-10.1.0-cp39-cp39-manylinux_2_28_x86_64.whl (3.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 248.6 MB/s eta 0:00:00[2023-11-11 18:14:25.752591] 
+Collecting tornado<7,>=6.0.3
+  Downloading tornado-6.3.3-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (427 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 427.7/427.7 KB 264.2 MB/s eta 0:00:00[2023-11-11 18:14:25.856438] 
+Collecting blinker<2,>=1.0.0
+  Downloading blinker-1.7.0-py3-none-any.whl (13 kB)
+Collecting protobuf<5,>=3.20
+  Downloading protobuf-4.25.0-cp37-abi3-manylinux2014_x86_64.whl (294 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.4/294.4 KB 245.9 MB/s eta 0:00:00[2023-11-11 18:14:26.297401] 
+Collecting watchdog>=2.1.5
+  Downloading watchdog-3.0.0-py3-none-manylinux2014_x86_64.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.1/82.1 KB 229.1 MB/s eta 0:00:00[2023-11-11 18:14:26.410276] 
+Collecting tenacity<9,>=8.1.0
+  Downloading tenacity-8.2.3-py3-none-any.whl (24 kB)
+Collecting validators<1,>=0.2
+  Downloading validators-0.22.0-py3-none-any.whl (26 kB)
+Collecting tzlocal<6,>=1.1
+  Downloading tzlocal-5.2-py3-none-any.whl (17 kB)
+Collecting gitpython!=3.1.19,<4,>=3.0.7
+  Downloading GitPython-3.1.40-py3-none-any.whl (190 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 190.6/190.6 KB 246.1 MB/s eta 0:00:00[2023-11-11 18:14:26.607490] 
+Collecting cachetools<6,>=4.0
+  Downloading cachetools-5.3.2-py3-none-any.whl (9.3 kB)
+Collecting toolz
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.8/55.8 KB 194.9 MB/s eta 0:00:00[2023-11-11 18:14:26.711505] 
+Collecting jsonschema>=3.0
+  Downloading jsonschema-4.19.2-py3-none-any.whl (83 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.6/83.6 KB 170.5 MB/s eta 0:00:00[2023-11-11 18:14:26.784057] 
+Collecting jinja2
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 230.8 MB/s eta 0:00:00[2023-11-11 18:14:26.831469] 
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.11-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 KB 212.7 MB/s eta 0:00:00[2023-11-11 18:14:26.901218] 
+Collecting zipp>=0.5
+  Downloading zipp-3.17.0-py3-none-any.whl (7.4 kB)
+Collecting pytz>=2020.1
+  Downloading pytz-2023.3.post1-py2.py3-none-any.whl (502 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.5/502.5 KB 248.1 MB/s eta 0:00:00[2023-11-11 18:14:27.196064] 
+Collecting tzdata>=2022.1
+  Downloading tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.8/341.8 KB 237.7 MB/s eta 0:00:00[2023-11-11 18:14:27.247587] 
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (142 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 142.3/142.3 KB 236.3 MB/s eta 0:00:00[2023-11-11 18:14:27.551406] 
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.0.7-py3-none-any.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 KB 147.3 MB/s eta 0:00:00[2023-11-11 18:14:27.631235] 
+Collecting certifi>=2017.4.17
+  Downloading certifi-2023.7.22-py3-none-any.whl (158 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 158.3/158.3 KB 195.2 MB/s eta 0:00:00[2023-11-11 18:14:27.686901] 
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 KB 117.7 MB/s eta 0:00:00[2023-11-11 18:14:27.731062] 
+Collecting pygments<3.0.0,>=2.13.0
+  Downloading Pygments-2.16.1-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 265.9 MB/s eta 0:00:00[2023-11-11 18:14:27.801146] 
+Collecting markdown-it-py>=2.2.0
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 KB 197.9 MB/s eta 0:00:00[2023-11-11 18:14:27.859963] 
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.1-py3-none-any.whl (24 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting jsonschema-specifications>=2023.03.6
+  Downloading jsonschema_specifications-2023.7.1-py3-none-any.whl (17 kB)
+Collecting referencing>=0.28.4
+  Downloading referencing-0.30.2-py3-none-any.whl (25 kB)
+Collecting attrs>=22.2.0
+  Downloading attrs-23.1.0-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 KB 204.6 MB/s eta 0:00:00[2023-11-11 18:14:28.298704] 
+Collecting rpds-py>=0.7.1
+  Downloading rpds_py-0.12.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 256.4 MB/s eta 0:00:00[2023-11-11 18:14:28.690736] 
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pytz, zipp, watchdog, validators, urllib3, tzlocal, tzdata, typing-extensions, tornado, toolz, toml, tenacity, smmap, six, rpds-py, pygments, protobuf, pillow, packaging, numpy, mdurl, MarkupSafe, idna, click, charset-normalizer, certifi, cachetools, blinker, attrs, requests, referencing, python-dateutil, pyarrow, markdown-it-py, jinja2, importlib-metadata, gitdb, rich, pydeck, pandas, jsonschema-specifications, gitpython, jsonschema, altair, streamlit
+Successfully installed MarkupSafe-2.1.3 altair-5.1.2 attrs-23.1.0 blinker-1.7.0 cachetools-5.3.2 certifi-2023.7.22 charset-normalizer-3.3.2 click-8.1.7 gitdb-4.0.11 gitpython-3.1.40 idna-3.4 importlib-metadata-6.8.0 jinja2-3.1.2 jsonschema-4.19.2 jsonschema-specifications-2023.7.1 markdown-it-py-3.0.0 mdurl-0.1.2 numpy-1.26.1 packaging-23.2 pandas-2.1.3 pillow-10.1.0 protobuf-4.25.0 pyarrow-14.0.1 pydeck-0.8.1b0 pygments-2.16.1 python-dateutil-2.8.2 pytz-2023.3.post1 referencing-0.30.2 requests-2.31.0 rich-13.6.0 rpds-py-0.12.0 six-1.16.0 smmap-5.0.1 streamlit-1.28.1 tenacity-8.2.3 toml-0.10.2 toolz-0.12.0 tornado-6.3.3 typing-extensions-4.8.0 tzdata-2023.3 tzlocal-5.2 urllib3-2.0.7 validators-0.22.0 watchdog-3.0.0 zipp-3.17.0
+WARNING: You are using pip version 22.0.3; however, version 23.3.1 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[18:14:41] 📦 Processed dependencies!
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Streamlit requires raw Python (.py) files, but the provided file has no extension.
+For more information, please see https://docs.streamlit.io
+[18:14:42] ❗️ error restarting streamlit: exit status 7: output: streamlit: ERROR (not running)
+streamlit: ERROR (spawn error)
+
+[18:14:42] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Streamlit requires raw Python (.py) files, but the provided file has no extension.
+For more information, please see https://docs.streamlit.io
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Streamlit requires raw Python (.py) files, but the provided file has no extension.
+For more information, please see https://docs.streamlit.io
+Usage: streamlit run [OPTIONS] TARGET [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Streamlit requires raw Python (.py) files, but the provided file has no extension.
+For more information, please see https://docs.streamlit.io
+[18:16:21] ❗️ Streamlit server consistently failed status checks
+[18:16:21] ❗️ Please fix the errors, push an update to the git repo, or reboot the app.
